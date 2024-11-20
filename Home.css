@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css2?family=Philosopher:wght@100;200;300;400;500;600;700&display=swap);
+
+
+.main-section__header {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    letter-spacing: 1px;
+}
+
+@media(max-width:768px){
+    .main-section__header{
+        font-size: 36px;
+        line-height: 36px;
+    }
+}
